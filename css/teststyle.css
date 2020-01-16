@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.social{
+    position: fixed;
+    top: 50px;
+    right: 0;
+}
+.social a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+}
+.social a:before{
+    content: "\f39e";
+    font-family: Font Awesome\ 5 Brands;
+    display: inline-block;
+}
+.social a:last-of-type{
+    background-color: darkred;
+}
+.social a:last-of-type:before{
+    content: "\f099";
+}
+.video{
+    max-width: 1170px;
+    height: 570px;
+    background-color: #e9e9e9;
+    margin: auto;
+    position: relative;
+    margin-bottom: 30px;
+}
+footer{
+    height: 250px;
+    position: relative;
+}
+footer:after{
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 5;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+}
