@@ -461,4 +461,17 @@ footer .container .socials ul li a{
 footer .container .socials ul li a:hover{
     color: #10c9c3;
 }
-
+.owl-dots .owl-dot span{
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #ffffff;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.owl-dots .owl-dot.active span{
+    height: 10px;
+    width: 10px;
+    position: relative;
+    top: 2px;
+}
