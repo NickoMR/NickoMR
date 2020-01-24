@@ -482,6 +482,7 @@ footer .container .socials ul li a:hover{
     text-align: center;
     background-color: #fbfbfb;
     border-radius: 15px;
+    position: fixed;
 }
 .ui-dialog .ui-resizable-n{
     height: 0;
