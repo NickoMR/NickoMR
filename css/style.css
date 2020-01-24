@@ -475,3 +475,86 @@ footer .container .socials ul li a:hover{
     position: relative;
     top: 2px;
 }
+.ui-dialog{
+    max-width: 750px !important;
+    width: 100% !important;
+    padding:0 0 165px 0;
+    text-align: center;
+    background-color: #fbfbfb;
+    border-radius: 15px;
+}
+.ui-dialog .ui-resizable-n{
+    height: 0;
+}
+.ui-dialog .ui-resizable-e {
+    width: 0;
+    right: 0;
+}
+.ui-dialog .ui-resizable-s {
+    height: 0;
+    bottom: 0;
+}
+.ui-dialog .ui-resizable-w {
+    width: 0;
+    left: 0;
+}
+.ui-dialog .ui-dialog-titlebar{
+    background-color: #000000;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-radius: 0;
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: 24px;
+}
+.email{
+    height: 60px;
+    max-width: 384px;
+    width: 100%;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    display: inline-block;
+}
+label{
+    font-size: 22px;
+    margin-right: 55px;
+}
+.ui-widget.ui-widget-content{
+    border: none;
+}
+.ui-dialog .ui-dialog-title{
+    margin: 0;
+}
+.ui-dialog .ui-dialog-titlebar .ui-dialog-titlebar-close{
+    top: -30px;
+    right: 0;
+    border-radius: 0;
+    border: solid 1px #000000;
+    background-color: #ffffff;
+}
+.ui-widget button{
+    max-width: 528px;
+    width: 100%;
+    height: 60px;
+    border-radius: 2px;
+    background-color: #d3d3d3;
+    font-size: 24px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0 30px 30px 30px;
+}
+.ui-widget button:last-child{
+    background-color: #557bcb;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.ui-dialog p{
+    font-size: 22px;
+    color: #363636;
+    font-weight: 800;
+    margin: 0
+}
