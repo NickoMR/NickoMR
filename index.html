@@ -16,25 +16,6 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<div id="dialog" title="Basic dialog">
-    <form action="#" method="post" name="password">
-        <label for="mail">
-            ENTER YOUR EMAIL
-        </label>
-
-        <input name="email" type="email" class="email" id="mail">
-        <button>
-            reset password
-        </button>
-        <p>OR</p>
-        <button>
-            <i class="fab fa-facebook-f"></i>   log in using facebook
-        </button>
-    </form>
-</div>
-<button id="opener">Open Dialog</button>-->
-
 <header>
     <div class="container">
         <a href="#" class="logo">
@@ -78,7 +59,7 @@
             about designing websites and mobile apps.
         </p>
 
-        <div class="CAbutton">
+        <div class="CAbutton" id="opener">
             <a href="#">
                 <h4>
                     Contact Us
@@ -403,6 +384,23 @@ for them air two won't
         </div>
     </div>
 </footer>
+
+<div id="dialog" title="Forgot your password?">
+    <form action="#" method="post" name="password">
+        <label for="mail">
+            ENTER YOUR EMAIL
+        </label>
+
+        <input name="email" type="email" class="email" id="mail">
+        <button>
+            reset password
+        </button>
+        <p>OR</p>
+        <button>
+            <i class="fab fa-facebook-f"></i>   log in using facebook
+        </button>
+    </form>
+</div>
 
 </body>
 </html>

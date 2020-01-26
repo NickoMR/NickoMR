@@ -521,6 +521,7 @@ footer .container .socials ul li a:hover{
 label{
     font-size: 22px;
     margin-right: 55px;
+    font-family: 'Montserrat', sans-serif;
 }
 .ui-widget.ui-widget-content{
     border: none;
@@ -539,13 +540,14 @@ label{
     max-width: 528px;
     width: 100%;
     height: 60px;
-    border-radius: 2px;
+    border: none;
     background-color: #d3d3d3;
     font-size: 24px;
     color: #000000;
     text-transform: uppercase;
     font-weight: 900;
     margin: 0 30px 30px 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 .ui-widget button:last-child{
     background-color: #557bcb;
